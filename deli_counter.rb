@@ -13,7 +13,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli, name)
-  customers = []
+  name = []
   if katz_deli.length == 0
     puts "Welcome, #{name}. You are number #{index + 1} in line."
   end
