@@ -1,4 +1,4 @@
 # Write your code here.
 
-def line(customer)
+def line(deli)
   
