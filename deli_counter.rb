@@ -11,4 +11,9 @@ def line(katz_deli)
   puts "The line is currently:" << "#{customers.join("")}"
   end
 end 
-  
+
+def take_a_number(katz_deli, name)
+  customers = []
+  if katz_deli.length == 0
+    
+end
