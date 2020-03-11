@@ -8,6 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       customers << ("#{index + 1}. #{name}")
   end
-  puts "The line is currently: "
+  puts "The line is currently:" << "#{customers.join(" ")}"
+  end
 end 
   
